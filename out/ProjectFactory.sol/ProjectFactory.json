@@ -1,0 +1,1113 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "project",
+          "type": "address"
+        }
+      ],
+      "name": "ProjectCreated",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "projectManager_",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "fundingAsset_",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "fundingGoal_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "minFundAmount_",
+          "type": "uint256"
+        }
+      ],
+      "name": "createProject",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "isProject",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b50610683806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806305c814081461003b578063bf7aaf6f14610072575b600080fd5b61005e6100493660046101cd565b60006020819052908152604090205460ff1681565b604051901515815260200160405180910390f35b6100856100803660046101ef565b610087565b005b6040805173ffffffffffffffffffffffffffffffffffffffff8087166020830152851691810191909152606081018390526080810182905260009060a001604051602081830303815290604052805190602001209050600081868686866040516100f090610197565b73ffffffffffffffffffffffffffffffffffffffff9485168152939092166020840152604083015260608201526080018190604051809103906000f5905080158015610140573d6000803e3d6000fd5b5060405173ffffffffffffffffffffffffffffffffffffffff8216815290915033907f8cb1f5e0b7508307e592a641586f535256dba226b02388100691c6133f65e22e9060200160405180910390a2505050505050565b61041c8061023283390190565b803573ffffffffffffffffffffffffffffffffffffffff811681146101c857600080fd5b919050565b6000602082840312156101df57600080fd5b6101e8826101a4565b9392505050565b6000806000806080858703121561020557600080fd5b61020e856101a4565b935061021c602086016101a4565b9396939550505050604082013591606001359056fe61012060405234801561001157600080fd5b5060405161041c38038061041c833981016040819052610030916100a0565b6001600160a01b03848116608052600080546001600160a01b031916918516919091179055600182905560a081905261006c42626ebe006100e3565b610100525050600060c081905260e052506101099050565b80516001600160a01b038116811461009b57600080fd5b919050565b600080600080608085870312156100b657600080fd5b6100bf85610084565b93506100cd60208601610084565b6040860151606090960151949790965092505050565b6000821982111561010457634e487b7160e01b600052601160045260246000fd5b500190565b60805160a05160c05160e051610100516102d061014c60003960006102220152600061018d015260006101db015260006101b40152600060d301526102d06000f3fe608060405234801561001057600080fd5b50600436106100c95760003560e01c80637e0bc77a11610081578063dd2662a21161005b578063dd2662a2146101d6578063ea6106ae146101fd578063eddd11851461021d57600080fd5b80637e0bc77a1461017d5780638fcdeba114610188578063ba4d35b3146101af57600080fd5b8063420a9739116100b2578063420a9739146101635780636c563abe1461016c5780637a3a0e841461017f57600080fd5b8063029eb76e146100ce57806337074acf1461011f575b600080fd5b6100f57f000000000000000000000000000000000000000000000000000000000000000081565b60405173ffffffffffffffffffffffffffffffffffffffff90911681526020015b60405180910390f35b61015561012d366004610244565b73ffffffffffffffffffffffffffffffffffffffff1660009081526003602052604090205490565b604051908152602001610116565b61015560025481565b61017d61017a366004610281565b50565b005b61015560015481565b6100f57f000000000000000000000000000000000000000000000000000000000000000081565b6101557f000000000000000000000000000000000000000000000000000000000000000081565b6100f57f000000000000000000000000000000000000000000000000000000000000000081565b6000546100f59073ffffffffffffffffffffffffffffffffffffffff1681565b6101557f000000000000000000000000000000000000000000000000000000000000000081565b60006020828403121561025657600080fd5b813573ffffffffffffffffffffffffffffffffffffffff8116811461027a57600080fd5b9392505050565b60006020828403121561029357600080fd5b503591905056fea2646970667358221220de508fa99c316814fc8ce282b47b3e4f63a6592d9c0d8ac12d05683532a13ee364736f6c634300080f0033a2646970667358221220486356e639f55b456cdd20c5498daf4b6c227899437f8fcbcae1a3a66017c0a764736f6c634300080f0033",
+    "sourceMap": "284:876:20:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806305c814081461003b578063bf7aaf6f14610072575b600080fd5b61005e6100493660046101cd565b60006020819052908152604090205460ff1681565b604051901515815260200160405180910390f35b6100856100803660046101ef565b610087565b005b6040805173ffffffffffffffffffffffffffffffffffffffff8087166020830152851691810191909152606081018390526080810182905260009060a001604051602081830303815290604052805190602001209050600081868686866040516100f090610197565b73ffffffffffffffffffffffffffffffffffffffff9485168152939092166020840152604083015260608201526080018190604051809103906000f5905080158015610140573d6000803e3d6000fd5b5060405173ffffffffffffffffffffffffffffffffffffffff8216815290915033907f8cb1f5e0b7508307e592a641586f535256dba226b02388100691c6133f65e22e9060200160405180910390a2505050505050565b61041c8061023283390190565b803573ffffffffffffffffffffffffffffffffffffffff811681146101c857600080fd5b919050565b6000602082840312156101df57600080fd5b6101e8826101a4565b9392505050565b6000806000806080858703121561020557600080fd5b61020e856101a4565b935061021c602086016101a4565b9396939550505050604082013591606001359056fe61012060405234801561001157600080fd5b5060405161041c38038061041c833981016040819052610030916100a0565b6001600160a01b03848116608052600080546001600160a01b031916918516919091179055600182905560a081905261006c42626ebe006100e3565b610100525050600060c081905260e052506101099050565b80516001600160a01b038116811461009b57600080fd5b919050565b600080600080608085870312156100b657600080fd5b6100bf85610084565b93506100cd60208601610084565b6040860151606090960151949790965092505050565b6000821982111561010457634e487b7160e01b600052601160045260246000fd5b500190565b60805160a05160c05160e051610100516102d061014c60003960006102220152600061018d015260006101db015260006101b40152600060d301526102d06000f3fe608060405234801561001057600080fd5b50600436106100c95760003560e01c80637e0bc77a11610081578063dd2662a21161005b578063dd2662a2146101d6578063ea6106ae146101fd578063eddd11851461021d57600080fd5b80637e0bc77a1461017d5780638fcdeba114610188578063ba4d35b3146101af57600080fd5b8063420a9739116100b2578063420a9739146101635780636c563abe1461016c5780637a3a0e841461017f57600080fd5b8063029eb76e146100ce57806337074acf1461011f575b600080fd5b6100f57f000000000000000000000000000000000000000000000000000000000000000081565b60405173ffffffffffffffffffffffffffffffffffffffff90911681526020015b60405180910390f35b61015561012d366004610244565b73ffffffffffffffffffffffffffffffffffffffff1660009081526003602052604090205490565b604051908152602001610116565b61015560025481565b61017d61017a366004610281565b50565b005b61015560015481565b6100f57f000000000000000000000000000000000000000000000000000000000000000081565b6101557f000000000000000000000000000000000000000000000000000000000000000081565b6100f57f000000000000000000000000000000000000000000000000000000000000000081565b6000546100f59073ffffffffffffffffffffffffffffffffffffffff1681565b6101557f000000000000000000000000000000000000000000000000000000000000000081565b60006020828403121561025657600080fd5b813573ffffffffffffffffffffffffffffffffffffffff8116811461027a57600080fd5b9392505050565b60006020828403121561029357600080fd5b503591905056fea2646970667358221220de508fa99c316814fc8ce282b47b3e4f63a6592d9c0d8ac12d05683532a13ee364736f6c634300080f0033a2646970667358221220486356e639f55b456cdd20c5498daf4b6c227899437f8fcbcae1a3a66017c0a764736f6c634300080f0033",
+    "sourceMap": "284:876:20:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;493:41;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;571:14:21;;564:22;546:41;;534:2;519:18;493:41:20;;;;;;;643:515;;;;;;:::i;:::-;;:::i;:::-;;;832:72;;;1241:42:21;1310:15;;;832:72:20;;;1292:34:21;1362:15;;1342:18;;;1335:43;;;;1394:18;;;1387:34;;;1437:18;;;1430:34;;;801:12:20;;1203:19:21;;832:72:20;;;;;;;;;;;;822:83;;;;;;801:104;;911:18;973:4;992:15;1021:13;1048:12;1074:14;947:151;;;;;:::i;:::-;1241:42:21;1310:15;;;1292:34;;1362:15;;;;1357:2;1342:18;;1335:43;1409:2;1394:18;;1387:34;1452:2;1437:18;;1430:34;1218:3;1203:19;947:151:20;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1115:38:20;;;1639:55:21;;1621:74;;911:193:20;;-1:-1:-1;1130:10:20;;1115:38;;1609:2:21;1594:18;1115:38:20;;;;;;;795:363;;643:515;;;;:::o;-1:-1:-1:-;;;;;;;;:::o;14:196:21:-;82:20;;142:42;131:54;;121:65;;111:93;;200:1;197;190:12;111:93;14:196;;;:::o;215:186::-;274:6;327:2;315:9;306:7;302:23;298:32;295:52;;;343:1;340;333:12;295:52;366:29;385:9;366:29;:::i;:::-;356:39;215:186;-1:-1:-1;;;215:186:21:o;598:397::-;684:6;692;700;708;761:3;749:9;740:7;736:23;732:33;729:53;;;778:1;775;768:12;729:53;801:29;820:9;801:29;:::i;:::-;791:39;;849:38;883:2;872:9;868:18;849:38;:::i;:::-;598:397;;839:48;;-1:-1:-1;;;;934:2:21;919:18;;906:32;;985:2;970:18;957:32;;598:397::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "createProject(address,address,uint256,uint256)": "bf7aaf6f",
+    "isProject(address)": "05c81408"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"manager\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"project\",\"type\":\"address\"}],\"name\":\"ProjectCreated\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"projectManager_\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"fundingAsset_\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"fundingGoal_\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"minFundAmount_\",\"type\":\"uint256\"}],\"name\":\"createProject\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"isProject\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"events\":{\"ProjectCreated(address,address)\":{\"details\":\"Emit when a new project is created.\",\"params\":{\"manager\":\"address\",\"project\":\"address\"}}},\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"createProject(address,address,uint256,uint256)\":{\"notice\":\"Creates a new project Requirements: - MUST be access restricted\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ProjectFactory.sol\":\"ProjectFactory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100000},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":solv-v2-ivo/=lib/solv-v2-ivo/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol\":{\"keccak256\":\"0xf41ca991f30855bf80ffd11e9347856a517b977f0a6c2d52e6421a99b7840329\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b2717fd2bdac99daa960a6de500754ea1b932093c946388c381da48658234b95\",\"dweb:/ipfs/QmP6QVMn6UeA3ByahyJbYQr5M6coHKBKsf3ySZSfbyA8R7\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol\":{\"keccak256\":\"0x032807210d1d7d218963d7355d62e021a84bf1b3339f4f50be2f63b53cccaf29\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://11756f42121f6541a35a8339ea899ee7514cfaa2e6d740625fcc844419296aa6\",\"dweb:/ipfs/QmekMuk6BY4DAjzeXr4MSbKdgoqqsZnA8JPtuyWc6CwXHf\"]},\"lib/openzeppelin-contracts/contracts/utils/Address.sol\":{\"keccak256\":\"0xd6153ce99bcdcce22b124f755e72553295be6abcd63804cfdffceb188b8bef10\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://35c47bece3c03caaa07fab37dd2bb3413bfbca20db7bd9895024390e0a469487\",\"dweb:/ipfs/QmPGWT2x3QHcKxqe6gRmAkdakhbaRgx3DLzcakHz5M4eXG\"]},\"src/EscrowedProject.sol\":{\"keccak256\":\"0x66fadb120be7fe4e30810148349c7049b5a1736a0ba887983a0d9a7ab2d30668\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://d54a5b897ede8049e5bd62b466ba91756521425ffc4ef0e0d5c532ad437f2522\",\"dweb:/ipfs/QmemYTPbQ8iUpGrp3KsL31ShTsMPD185kJsBBAVW5REHGe\"]},\"src/ProjectFactory.sol\":{\"keccak256\":\"0xd9a43995e2b1ecd7fbfd20710692dcacda63cacdfce5ef36f47d0ef860411028\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://d5594214d80c3cf7d87f6da0be504509f93737c57d54ded6448a79da481b1706\",\"dweb:/ipfs/QmTafr4SUH9fJ7fzVz3T4Fx2zrt4ovRU8Urz6PJACqsW8d\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "manager",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "internalType": "address",
+              "name": "project",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "ProjectCreated",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "projectManager_",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "fundingAsset_",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "fundingGoal_",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "minFundAmount_",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "createProject"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "isProject",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "createProject(address,address,uint256,uint256)": {
+            "notice": "Creates a new project Requirements: - MUST be access restricted"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        ":solv-v2-ivo/=lib/solv-v2-ivo/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 100000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ProjectFactory.sol": "ProjectFactory"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+        "urls": [
+          "bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+          "dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol": {
+        "keccak256": "0xf41ca991f30855bf80ffd11e9347856a517b977f0a6c2d52e6421a99b7840329",
+        "urls": [
+          "bzz-raw://b2717fd2bdac99daa960a6de500754ea1b932093c946388c381da48658234b95",
+          "dweb:/ipfs/QmP6QVMn6UeA3ByahyJbYQr5M6coHKBKsf3ySZSfbyA8R7"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol": {
+        "keccak256": "0x032807210d1d7d218963d7355d62e021a84bf1b3339f4f50be2f63b53cccaf29",
+        "urls": [
+          "bzz-raw://11756f42121f6541a35a8339ea899ee7514cfaa2e6d740625fcc844419296aa6",
+          "dweb:/ipfs/QmekMuk6BY4DAjzeXr4MSbKdgoqqsZnA8JPtuyWc6CwXHf"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/Address.sol": {
+        "keccak256": "0xd6153ce99bcdcce22b124f755e72553295be6abcd63804cfdffceb188b8bef10",
+        "urls": [
+          "bzz-raw://35c47bece3c03caaa07fab37dd2bb3413bfbca20db7bd9895024390e0a469487",
+          "dweb:/ipfs/QmPGWT2x3QHcKxqe6gRmAkdakhbaRgx3DLzcakHz5M4eXG"
+        ],
+        "license": "MIT"
+      },
+      "src/EscrowedProject.sol": {
+        "keccak256": "0x66fadb120be7fe4e30810148349c7049b5a1736a0ba887983a0d9a7ab2d30668",
+        "urls": [
+          "bzz-raw://d54a5b897ede8049e5bd62b466ba91756521425ffc4ef0e0d5c532ad437f2522",
+          "dweb:/ipfs/QmemYTPbQ8iUpGrp3KsL31ShTsMPD185kJsBBAVW5REHGe"
+        ],
+        "license": "GPL-3.0-or-later"
+      },
+      "src/ProjectFactory.sol": {
+        "keccak256": "0xd9a43995e2b1ecd7fbfd20710692dcacda63cacdfce5ef36f47d0ef860411028",
+        "urls": [
+          "bzz-raw://d5594214d80c3cf7d87f6da0be504509f93737c57d54ded6448a79da481b1706",
+          "dweb:/ipfs/QmTafr4SUH9fJ7fzVz3T4Fx2zrt4ovRU8Urz6PJACqsW8d"
+        ],
+        "license": "GPL-3.0-or-later"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/ProjectFactory.sol",
+    "id": 25302,
+    "exportedSymbols": {
+      "EscrowedProject": [
+        25238
+      ],
+      "ProjectFactory": [
+        25301
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "45:1116:20",
+    "nodes": [
+      {
+        "id": 25240,
+        "nodeType": "PragmaDirective",
+        "src": "45:23:20",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "0.8",
+          ".15"
+        ]
+      },
+      {
+        "id": 25242,
+        "nodeType": "ImportDirective",
+        "src": "228:54:20",
+        "nodes": [],
+        "absolutePath": "src/EscrowedProject.sol",
+        "file": "./EscrowedProject.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 25302,
+        "sourceUnit": 25239,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 25241,
+              "name": "EscrowedProject",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 25238,
+              "src": "236:15:20",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 25301,
+        "nodeType": "ContractDefinition",
+        "src": "284:876:20",
+        "nodes": [
+          {
+            "id": 25249,
+            "nodeType": "EventDefinition",
+            "src": "426:63:20",
+            "nodes": [],
+            "anonymous": false,
+            "documentation": {
+              "id": 25243,
+              "nodeType": "StructuredDocumentation",
+              "src": "312:111:20",
+              "text": " @dev Emit when a new project is created.\n @param manager address\n @param project address"
+            },
+            "eventSelector": "8cb1f5e0b7508307e592a641586f535256dba226b02388100691c6133f65e22e",
+            "name": "ProjectCreated",
+            "nameLocation": "432:14:20",
+            "parameters": {
+              "id": 25248,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25245,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "manager",
+                  "nameLocation": "463:7:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25249,
+                  "src": "447:23:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25244,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "447:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25247,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "project",
+                  "nameLocation": "480:7:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25249,
+                  "src": "472:15:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25246,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "472:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "446:42:20"
+            }
+          },
+          {
+            "id": 25253,
+            "nodeType": "VariableDeclaration",
+            "src": "493:41:20",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "05c81408",
+            "mutability": "mutable",
+            "name": "isProject",
+            "nameLocation": "525:9:20",
+            "scope": 25301,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+              "typeString": "mapping(address => bool)"
+            },
+            "typeName": {
+              "id": 25252,
+              "keyType": {
+                "id": 25250,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "501:7:20",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "493:24:20",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                "typeString": "mapping(address => bool)"
+              },
+              "valueType": {
+                "id": 25251,
+                "name": "bool",
+                "nodeType": "ElementaryTypeName",
+                "src": "512:4:20",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 25300,
+            "nodeType": "FunctionDefinition",
+            "src": "643:515:20",
+            "nodes": [],
+            "body": {
+              "id": 25299,
+              "nodeType": "Block",
+              "src": "795:363:20",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    25266
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 25266,
+                      "mutability": "mutable",
+                      "name": "salt",
+                      "nameLocation": "809:4:20",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 25299,
+                      "src": "801:12:20",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 25265,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "801:7:20",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 25276,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 25270,
+                            "name": "projectManager_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25256,
+                            "src": "843:15:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          {
+                            "id": 25271,
+                            "name": "fundingAsset_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25258,
+                            "src": "860:13:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          {
+                            "id": 25272,
+                            "name": "fundingGoal_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25260,
+                            "src": "875:12:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          {
+                            "id": 25273,
+                            "name": "minFundAmount_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25262,
+                            "src": "889:14:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            },
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "expression": {
+                            "id": 25268,
+                            "name": "abi",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -1,
+                            "src": "832:3:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_abi",
+                              "typeString": "abi"
+                            }
+                          },
+                          "id": 25269,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "encode",
+                          "nodeType": "MemberAccess",
+                          "src": "832:10:20",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_abiencode_pure$__$returns$_t_bytes_memory_ptr_$",
+                            "typeString": "function () pure returns (bytes memory)"
+                          }
+                        },
+                        "id": 25274,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "832:72:20",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      ],
+                      "id": 25267,
+                      "name": "keccak256",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -8,
+                      "src": "822:9:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
+                        "typeString": "function (bytes memory) pure returns (bytes32)"
+                      }
+                    },
+                    "id": 25275,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "822:83:20",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "801:104:20"
+                },
+                {
+                  "assignments": [
+                    25278
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 25278,
+                      "mutability": "mutable",
+                      "name": "newProject",
+                      "nameLocation": "919:10:20",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 25299,
+                      "src": "911:18:20",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 25277,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "911:7:20",
+                        "stateMutability": "nonpayable",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 25292,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 25286,
+                            "name": "projectManager_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25256,
+                            "src": "992:15:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          {
+                            "id": 25287,
+                            "name": "fundingAsset_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25258,
+                            "src": "1021:13:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          {
+                            "id": 25288,
+                            "name": "fundingGoal_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25260,
+                            "src": "1048:12:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          {
+                            "id": 25289,
+                            "name": "minFundAmount_",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25262,
+                            "src": "1074:14:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            },
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              },
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              },
+                              {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              },
+                              {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            ],
+                            "id": 25283,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "nodeType": "NewExpression",
+                            "src": "947:19:20",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_creation_nonpayable$_t_address_$_t_address_$_t_uint256_$_t_uint256_$returns$_t_contract$_EscrowedProject_$25238_$",
+                              "typeString": "function (address,address,uint256,uint256) returns (contract EscrowedProject)"
+                            },
+                            "typeName": {
+                              "id": 25282,
+                              "nodeType": "UserDefinedTypeName",
+                              "pathNode": {
+                                "id": 25281,
+                                "name": "EscrowedProject",
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 25238,
+                                "src": "951:15:20"
+                              },
+                              "referencedDeclaration": 25238,
+                              "src": "951:15:20",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_EscrowedProject_$25238",
+                                "typeString": "contract EscrowedProject"
+                              }
+                            }
+                          },
+                          "id": 25285,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "names": [
+                            "salt"
+                          ],
+                          "nodeType": "FunctionCallOptions",
+                          "options": [
+                            {
+                              "id": 25284,
+                              "name": "salt",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 25266,
+                              "src": "973:4:20",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bytes32",
+                                "typeString": "bytes32"
+                              }
+                            }
+                          ],
+                          "src": "947:31:20",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_creation_nonpayable$_t_address_$_t_address_$_t_uint256_$_t_uint256_$returns$_t_contract$_EscrowedProject_$25238_$salt",
+                            "typeString": "function (address,address,uint256,uint256) returns (contract EscrowedProject)"
+                          }
+                        },
+                        "id": 25290,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "947:151:20",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_EscrowedProject_$25238",
+                          "typeString": "contract EscrowedProject"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_contract$_EscrowedProject_$25238",
+                          "typeString": "contract EscrowedProject"
+                        }
+                      ],
+                      "id": 25280,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "932:7:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_address_$",
+                        "typeString": "type(address)"
+                      },
+                      "typeName": {
+                        "id": 25279,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "932:7:20",
+                        "typeDescriptions": {}
+                      }
+                    },
+                    "id": 25291,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "932:172:20",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "911:193:20"
+                },
+                {
+                  "eventCall": {
+                    "arguments": [
+                      {
+                        "expression": {
+                          "id": 25294,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "1130:3:20",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 25295,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "1130:10:20",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "id": 25296,
+                        "name": "newProject",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25278,
+                        "src": "1142:10:20",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "id": 25293,
+                      "name": "ProjectCreated",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25249,
+                      "src": "1115:14:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$returns$__$",
+                        "typeString": "function (address,address)"
+                      }
+                    },
+                    "id": 25297,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1115:38:20",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25298,
+                  "nodeType": "EmitStatement",
+                  "src": "1110:43:20"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 25254,
+              "nodeType": "StructuredDocumentation",
+              "src": "539:101:20",
+              "text": " @notice Creates a new project\n Requirements:\n - MUST be access restricted"
+            },
+            "functionSelector": "bf7aaf6f",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "createProject",
+            "nameLocation": "652:13:20",
+            "parameters": {
+              "id": 25263,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25256,
+                  "mutability": "mutable",
+                  "name": "projectManager_",
+                  "nameLocation": "679:15:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25300,
+                  "src": "671:23:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25255,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "671:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25258,
+                  "mutability": "mutable",
+                  "name": "fundingAsset_",
+                  "nameLocation": "708:13:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25300,
+                  "src": "700:21:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25257,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "700:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25260,
+                  "mutability": "mutable",
+                  "name": "fundingGoal_",
+                  "nameLocation": "735:12:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25300,
+                  "src": "727:20:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 25259,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "727:7:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25262,
+                  "mutability": "mutable",
+                  "name": "minFundAmount_",
+                  "nameLocation": "761:14:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25300,
+                  "src": "753:22:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 25261,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "753:7:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "665:114:20"
+            },
+            "returnParameters": {
+              "id": 25264,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "795:0:20"
+            },
+            "scope": 25301,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ProjectFactory",
+        "contractDependencies": [
+          25238
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          25301
+        ],
+        "name": "ProjectFactory",
+        "nameLocation": "293:14:20",
+        "scope": 25302,
+        "usedErrors": []
+      }
+    ],
+    "license": "GPL-3.0-or-later"
+  },
+  "id": 20
+}
