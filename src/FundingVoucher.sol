@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
 /**
@@ -6,25 +7,24 @@ pragma solidity 0.8.15;
  * @notice This contract contains the main functions for a Funding Voucher
  * represents investment in project and allows user to claim earnings
  */
+import {Counters} from "https://github.com/iafhurtado/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol";
+import {ERC3525Upgradeable} from "https://github.com/parseb/ERC3525/blob/main/contracts/ERC3525Upgradeable.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 
-
-import {VoucherCore} from "../lib/solv-v2-ivo/vouchers/voucher-core/contracts/VoucherCore";
-import {VNFTCoreV2} from  "../lib/solv-v2-ivo/vouchers/vnft-core/contracts/VNFTCoreV2";
-
-contract FundingVoucher is VoucherCore, VNFTCoreV2 {
+contract FundingVoucher {
     // Las variables
     using Counters for Counters.Counter;
 
     Counters.Counter private _voucherIdCounter;
 
-    uint8 maxSupply;
+    uint8 maxVoucherSupply;
 
-    constructor(uint8 _maxSupply) ERC721("Funding Voucher", "FUND") {
-        maxSupply = _maxSupply;
+    constructor(uint8 _maxVoucherSupply) ERC3525Upgradeable("Funding Voucher", "FUND") {
+        maxVoucherSupply = _maxVoucherSupply;
     }
 
     function safeMint(address to, string memory uri) public onlyOwner { // ProjectEscrow address como admin
-    require(_voucherIdCounter.current() < maxSupply, "Funding voucher max supply has been reached");
+    require(_voucherIdCounter.current() < _maxVoucherSupply, "Funding voucher max supply has been reached");
     uint256 tokenId = _voucherIdCounter.current();
     _voucherIdCounter.increment();
     _mint(to, tokenId);
