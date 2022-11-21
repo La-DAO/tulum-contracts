@@ -12,8 +12,8 @@
   },
   "files": {
     "lib/forge-std/lib/ds-test/src/test.sol": {
-      "lastModificationDate": 1667322927412,
-      "contentHash": "962996f0e05d5218857a538a62d7c47e",
+      "lastModificationDate": 1668887252495,
+      "contentHash": "a85cb92e605e48103a5375f81c8233f2",
       "sourceName": "lib/forge-std/lib/ds-test/src/test.sol",
       "solcConfig": {
         "settings": {
@@ -47,13 +47,13 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "test.sol/DSTest.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "test.sol\\DSTest.json"
         }
       }
     },
     "lib/forge-std/src/Common.sol": {
-      "lastModificationDate": 1667322926727,
-      "contentHash": "385215973dee04c2a4bfefa3a37e253c",
+      "lastModificationDate": 1668887251652,
+      "contentHash": "13c51d6d45b8cfd25daaa702d283ac1d",
       "sourceName": "lib/forge-std/src/Common.sol",
       "solcConfig": {
         "settings": {
@@ -100,13 +100,13 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "CommonBase": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Common.sol/CommonBase.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Common.sol\\CommonBase.json"
         }
       }
     },
     "lib/forge-std/src/Components.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "745a7e4623550699a5e0333bcf4f0184",
+      "lastModificationDate": 1668887251652,
+      "contentHash": "1f7ac089f5b13cd4e3cb932fc41b9d64",
       "sourceName": "lib/forge-std/src/Components.sol",
       "solcConfig": {
         "settings": {
@@ -152,13 +152,13 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Components": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Components.sol/Components.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Components.sol\\Components.json"
         }
       }
     },
     "lib/forge-std/src/Script.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "a0d7ca329f3374a1698e48c493ab4f1a",
+      "lastModificationDate": 1668887251652,
+      "contentHash": "69773022d84e81da38b69d1f5cdfcd37",
       "sourceName": "lib/forge-std/src/Script.sol",
       "solcConfig": {
         "settings": {
@@ -206,16 +206,16 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Script": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Script.sol/Script.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Script.sol\\Script.json"
         },
         "ScriptBase": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Script.sol/ScriptBase.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Script.sol\\ScriptBase.json"
         }
       }
     },
     "lib/forge-std/src/StdAssertions.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "97b66d973ed246b7929e1d3644aa251d",
+      "lastModificationDate": 1668887251654,
+      "contentHash": "77ce5b9e738a79e536f54eaa86ccd4da",
       "sourceName": "lib/forge-std/src/StdAssertions.sol",
       "solcConfig": {
         "settings": {
@@ -252,13 +252,13 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdAssertions": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdAssertions.sol/StdAssertions.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdAssertions.sol\\StdAssertions.json"
         }
       }
     },
     "lib/forge-std/src/StdCheats.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "4977c85e5d61f8134d71f5b275bcc243",
+      "lastModificationDate": 1668887251654,
+      "contentHash": "b87f2f282098c6c7de8c1882eb61f9f0",
       "sourceName": "lib/forge-std/src/StdCheats.sol",
       "solcConfig": {
         "settings": {
@@ -295,16 +295,16 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdCheats": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdCheats.sol/StdCheats.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdCheats.sol\\StdCheats.json"
         },
         "StdCheatsSafe": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdCheats.sol/StdCheatsSafe.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdCheats.sol\\StdCheatsSafe.json"
         }
       }
     },
     "lib/forge-std/src/StdError.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "64c896e1276a291776e5ea5aecb3870a",
+      "lastModificationDate": 1668887251655,
+      "contentHash": "8c35ad419c5b8748575080db5fd58cae",
       "sourceName": "lib/forge-std/src/StdError.sol",
       "solcConfig": {
         "settings": {
@@ -338,13 +338,13 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdError": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdError.sol/stdError.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdError.sol\\stdError.json"
         }
       }
     },
     "lib/forge-std/src/StdJson.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "8d00a5d48bd905d21a4c37c488772b02",
+      "lastModificationDate": 1668887251655,
+      "contentHash": "110e6c297c283002219818036790f405",
       "sourceName": "lib/forge-std/src/StdJson.sol",
       "solcConfig": {
         "settings": {
@@ -380,13 +380,13 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "stdJson": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdJson.sol/stdJson.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdJson.sol\\stdJson.json"
         }
       }
     },
     "lib/forge-std/src/StdMath.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "9da8f453eba6bb98f3d75bc6822bfb29",
+      "lastModificationDate": 1668887251655,
+      "contentHash": "fc64b149e462e64dea89f50e9cc0318f",
       "sourceName": "lib/forge-std/src/StdMath.sol",
       "solcConfig": {
         "settings": {
@@ -420,13 +420,13 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdMath": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdMath.sol/stdMath.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdMath.sol\\stdMath.json"
         }
       }
     },
     "lib/forge-std/src/StdStorage.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "3f1bd6d72997330e2f556ececa8114a7",
+      "lastModificationDate": 1668887251656,
+      "contentHash": "2fb034cede70de5dbce298f332baf4f9",
       "sourceName": "lib/forge-std/src/StdStorage.sol",
       "solcConfig": {
         "settings": {
@@ -462,16 +462,16 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdStorage": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdStorage.sol/stdStorage.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdStorage.sol\\stdStorage.json"
         },
         "stdStorageSafe": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdStorage.sol/stdStorageSafe.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdStorage.sol\\stdStorageSafe.json"
         }
       }
     },
     "lib/forge-std/src/StdUtils.sol": {
-      "lastModificationDate": 1667322926728,
-      "contentHash": "d243e50efcf697a63f0aeecb83c38c47",
+      "lastModificationDate": 1668887251656,
+      "contentHash": "5048526b8b034415fc5f2ed7b436168e",
       "sourceName": "lib/forge-std/src/StdUtils.sol",
       "solcConfig": {
         "settings": {
@@ -507,13 +507,13 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdUtils": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "StdUtils.sol/StdUtils.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "StdUtils.sol\\StdUtils.json"
         }
       }
     },
     "lib/forge-std/src/Vm.sol": {
-      "lastModificationDate": 1667322926729,
-      "contentHash": "aad91b6766351c7d5f8793522825b92a",
+      "lastModificationDate": 1668887251656,
+      "contentHash": "b735cd32d09d9e34afe11af711b54d8c",
       "sourceName": "lib/forge-std/src/Vm.sol",
       "solcConfig": {
         "settings": {
@@ -547,16 +547,16 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Vm.sol/Vm.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Vm.sol\\Vm.json"
         },
         "VmSafe": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Vm.sol/VmSafe.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Vm.sol\\VmSafe.json"
         }
       }
     },
     "lib/forge-std/src/console.sol": {
-      "lastModificationDate": 1667322926729,
-      "contentHash": "100b8a33b917da1147740d7ab8b0ded3",
+      "lastModificationDate": 1668887251656,
+      "contentHash": "c8cf989d04bc2e3069e3d91facf3b69c",
       "sourceName": "lib/forge-std/src/console.sol",
       "solcConfig": {
         "settings": {
@@ -590,13 +590,13 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "console.sol/console.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "console.sol\\console.json"
         }
       }
     },
     "lib/forge-std/src/console2.sol": {
-      "lastModificationDate": 1667322926729,
-      "contentHash": "493035087920d89b7c215d662e53ace3",
+      "lastModificationDate": 1668887251657,
+      "contentHash": "f38f0c43d493deb95bc450f4125f7a99",
       "sourceName": "lib/forge-std/src/console2.sol",
       "solcConfig": {
         "settings": {
@@ -630,13 +630,13 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "console2.sol/console2.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "console2.sol\\console2.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1667323236952,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "lastModificationDate": 1668887252678,
+      "contentHash": "da337b36f786d26e7e0826fa874f8d27",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "settings": {
@@ -670,13 +670,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "IERC20.sol/IERC20.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "IERC20.sol\\IERC20.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol": {
-      "lastModificationDate": 1667323236953,
-      "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
+      "lastModificationDate": 1668887252683,
+      "contentHash": "7d796cee942e6b138485934e561338dc",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
       "solcConfig": {
         "settings": {
@@ -710,13 +710,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20Permit": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "draft-IERC20Permit.sol/IERC20Permit.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "draft-IERC20Permit.sol\\IERC20Permit.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol": {
-      "lastModificationDate": 1667323239211,
-      "contentHash": "3a843b05b85a270e9455e3d2e804e633",
+      "lastModificationDate": 1668887252684,
+      "contentHash": "208b580e2f2412c559aa14bf902549af",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
       "solcConfig": {
         "settings": {
@@ -754,13 +754,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "SafeERC20": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "SafeERC20.sol/SafeERC20.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "SafeERC20.sol\\SafeERC20.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/utils/Address.sol": {
-      "lastModificationDate": 1667323239212,
-      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
+      "lastModificationDate": 1668887252694,
+      "contentHash": "d4e3095a31a3068e5a0e550c59021f34",
       "sourceName": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
       "solcConfig": {
         "settings": {
@@ -794,13 +794,13 @@
       "versionRequirement": "^0.8.1",
       "artifacts": {
         "Address": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Address.sol/Address.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Address.sol\\Address.json"
         }
       }
     },
     "script/Counter.s.sol": {
-      "lastModificationDate": 1667357527694,
-      "contentHash": "6bab57af50d9a69047d45c2965bc7142",
+      "lastModificationDate": 1668887219994,
+      "contentHash": "1a164a7b3d84ca07e74be5d91e45d474",
       "sourceName": "script/Counter.s.sol",
       "solcConfig": {
         "settings": {
@@ -834,7 +834,7 @@
         "lib/forge-std/lib/ds-test/src/test.sol",
         "lib/forge-std/src/Common.sol",
         "lib/forge-std/src/Components.sol",
-        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src\\Script.sol",
         "lib/forge-std/src/StdAssertions.sol",
         "lib/forge-std/src/StdCheats.sol",
         "lib/forge-std/src/StdError.sol",
@@ -849,13 +849,13 @@
       "versionRequirement": "^0.8.13",
       "artifacts": {
         "CounterScript": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "Counter.s.sol/CounterScript.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "Counter.s.sol\\CounterScript.json"
         }
       }
     },
     "src/EscrowedProject.sol": {
-      "lastModificationDate": 1667357527695,
-      "contentHash": "ed8337bba5a0dd42f0e6a12090707e4c",
+      "lastModificationDate": 1668887219994,
+      "contentHash": "31f4323afef47c8bd61f3646856fe529",
       "sourceName": "src/EscrowedProject.sol",
       "solcConfig": {
         "settings": {
@@ -894,13 +894,13 @@
       "versionRequirement": "=0.8.15",
       "artifacts": {
         "EscrowedProject": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "EscrowedProject.sol/EscrowedProject.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "EscrowedProject.sol\\EscrowedProject.json"
         }
       }
     },
     "src/ProjectFactory.sol": {
-      "lastModificationDate": 1667357527695,
-      "contentHash": "a0ec71f77cde8188684d9203a373b050",
+      "lastModificationDate": 1668887219995,
+      "contentHash": "9f7741d2c19fbe9ce4a050c494a39784",
       "sourceName": "src/ProjectFactory.sol",
       "solcConfig": {
         "settings": {
@@ -935,12 +935,12 @@
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
         "lib/openzeppelin-contracts/contracts/utils/Address.sol",
-        "src/EscrowedProject.sol"
+        "src\\EscrowedProject.sol"
       ],
       "versionRequirement": "=0.8.15",
       "artifacts": {
         "ProjectFactory": {
-          "0.8.15+commit.e14f2714.Darwin.appleclang": "ProjectFactory.sol/ProjectFactory.json"
+          "0.8.15+commit.e14f2714.Windows.msvc": "ProjectFactory.sol\\ProjectFactory.json"
         }
       }
     }
