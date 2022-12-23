@@ -8,20 +8,24 @@ pragma solidity 0.8.15;
  */
 
 import {ERC721} from "../lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
-// import {ERC721Enumerable} from "../lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import {ERC721URIStorage} from "../lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-// import {ERC721Burnable} from "../lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import {Counters} from "../lib/openzeppelin-contracts/contracts/utils/Counters.sol";
 import {Ownable} from "../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
 
-contract RealEstateNFT is ERC721, ERC721URIStorage, Ownable {
+contract ProductNFT is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
 
-    uint8 maxSupply;
+    // Token name
+    string private _name;
+    // Token symbol
+    string private _symbol;
+    uint256 maxSupply;
 
-    constructor(uint8 _maxSupply) ERC721("Real Estate NFT", "RENFT") {
+    constructor(string memory name_, string memory symbol_, uint8 _maxSupply) ERC721("Product NFT", "PRDNFT") {
+        _name = name_;
+        _symbol = symbol_;
         maxSupply = _maxSupply;
     }
 
